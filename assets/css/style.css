@@ -1,0 +1,380 @@
+/*=============================
+         start global css 
+==============================*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style:none;
+}
+li{
+    display:inline-block;
+}
+a{
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+.container{
+    max-width:1110px;
+    width:100%;
+    margin:0 auto;
+    padding:0 20px;
+}
+input{
+    border: none;
+}
+input:focus {
+    border: none;
+    outline: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+color: #ff8b38; */
+/*=============================
+         end global css 
+==============================*/
+
+/*=============================
+         start header css 
+==============================*/
+#header-section{
+    width:100%;
+    background-color: #000;
+}
+.header-wrapper {
+    padding:20px 0px;
+}
+.header-wrapper .menu ul li a {
+    color: #c9c9c9;
+    margin-left: 45px;
+    text-transform: capitalize;
+    font-weight:600;
+    font-size:14px;
+    line-height:24px;
+}
+/*=============================
+         end header css 
+==============================*/
+
+/*=============================
+         start Banner css 
+==============================*/
+#banner-section{
+    background-image: url('../img/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+}
+.banner-Wrapper {
+    height: 100vh;
+}
+.b-text {
+    flex-basis: 60%;
+    margin-right: 17%;
+}
+.b-text h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 65px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+.b-text h1 span {
+    color: #ff8b38;
+    font-weight: 300;
+}
+.b-text h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: relative;
+    padding: 30px 0;
+    line-height: 45px;
+}
+.b-text h2::after, .sub-list-text h4::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    height: 2px;
+    width: 64px;
+    top: 100%;
+    left: 0%;
+}
+.b-text p {
+    font-family: 'Raleway', sans-serif;
+    color: #dfdfdf;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 30px 0px 45px;
+    margin-right: 35px;
+}
+.b-text a {
+    color: #fff;
+    font-weight: 600;
+    padding:10px 30px;
+    border:2px solid #f5f5f5;
+    font-size: 15px;
+    text-transform:capitalize;
+}
+.b-form {
+    flex-basis: 40%;
+    max-width: 360px;
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+}
+.b-form input {
+    display: block;
+    width: 100%;
+}
+.b-form input::placeholder {
+    font-size: 14px;
+    color: #cfcfcf;
+}
+.f-head h3 {
+    padding: 15px 0;
+    text-align: center;
+    text-transform: capitalize;
+    background: #f5f5f5;
+    border-radius: 6px 6px 0 0;
+    font-size: 20px;
+    font-weight: 700;
+    color:#333333;
+}
+.f-head h3 span {
+    color: #ff8b38;
+    text-transform: uppercase;
+}
+.f-body {
+    padding: 10px 35px 40px;
+}
+.f-body input {
+    border-bottom: 1px solid #d6d6d6;
+    padding: 10px 14px;
+    margin-top: 20px;
+}
+
+.f-footer input {
+    padding: 15px 0;
+    text-align: center;
+    text-transform: capitalize;
+    background: #ff9b51;
+    border-radius: 0 0 6px 6px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    cursor:pointer;
+}
+
+/*=============================
+         end Banner css 
+==============================*/
+
+/*=============================
+    start Social-media css 
+==============================*/
+#social-media-section {
+    width: 100%;
+    padding: 25px 0px;
+    background-color: #fff;
+    filter: drop-shadow(0px 0px 2px #333);
+}
+.social-media-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media-text{
+    flex-basis: 35%;
+}
+.social-media-text h4{
+    font-size:20px;
+    color:#333333;
+    font-weight:700;
+    text-transform: capitalize;
+}
+.social-media-text p{
+    font-size:14px;
+    color:#86878b;
+}
+.social-media-menu{
+    flex-basis: 65%;
+}
+.social-media-menu ul {
+    text-align: end;
+}
+.social-media-menu ul li a i {
+    color: #cccccc;
+    font-size: 32px;
+    margin-left: 60px;
+}
+/*=============================
+    end social-media css 
+==============================*/
+
+
+/*=============================
+        start feature css 
+==============================*/
+#feature-section {
+    background: #f5f5f5;
+    padding: 140px 0px 110px;
+}
+.feature-tab {
+    flex-basis: 21%;
+}
+.feature-tab-info {
+    flex-basis: 54%;
+}
+.feature-tab-img {
+    flex-basis: 25%;
+}
+.single-tab {
+    width: 110px;
+    height: 110px;
+    background: #333333;
+    margin-bottom: 1px;
+}
+.active {
+    background: #ff8b38;
+}
+.single-tab:first-child {
+    border-radius: 6px 6px 0 0;
+}
+.single-tab:last-child {
+    border-radius: 0 0 6px 6px;
+}
+.single-tab h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.feature-tab-info h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 50px;
+}
+.feature-tab-info p {
+    font-size: 14px;
+    color: #86878b;
+    margin-bottom: 25px;
+    padding-right: 92px;
+}
+.feature-tab-info a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+    text-transform: capitalize;
+    background: #ff8b38;
+    padding: 13px 25px;
+    border-radius: 4px;
+    display: inline-block;
+}
+/*=============================
+        end feature css 
+==============================*/
+
+
+/*=============================
+        start sub-list css 
+==============================*/
+#sub-list-section, #standard-section {
+    padding: 100px 0px;
+    background: #ffffff;
+}
+.single-sub-list {
+    align-items: start;
+}
+.sub-list-img {
+    flex-basis: 40%;
+}
+.sub-list-text {
+    flex-basis: 50%;
+}
+.sub-list-text h4 {
+    font-size: 20px;
+    color: #212121;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 20px;
+}
+.sub-list-text h4::after {
+    background: #ff8b38;
+}
+.sub-list-text p {
+    color: #86878b;
+    padding: 20px 0 40px;
+    font-size: 14px;
+    font-weight:400;
+}
+.icon i {
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    padding: 12px 10px;
+    cursor: pointer;
+    margin-right: 30px;
+    color: #ff8b38;
+}
+.list h5 {
+    font-size: 14px;
+    color: #212121;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.list p {
+    padding-top: 14px;
+
+}
+/*=============================
+        end sub-list css 
+==============================*/
+
+
+/*=============================
+        start standard css 
+==============================*/
+#standard-section {
+    background: #f5f5f5;
+}
+.standard-wrapper{
+    align-items: start;
+}
+.standard {
+    padding-top: 21px;
+}
+.standard p {
+    padding-bottom: 0;
+}
+/*=============================
+        end standard css 
+==============================*/
+
+
+/*=============================
+         start header css 
+==============================*/
+/*=============================
+         end header css 
+==============================*/
